@@ -1,4 +1,4 @@
-from models.database import db
+from .database import db
 from .basemodel import BaseModel  
 
 class Song(BaseModel):
